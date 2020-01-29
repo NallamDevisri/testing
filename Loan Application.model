@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE focus-model [
+]>
+<!----><focus-model auxDataFilesFolder="" classifyAttributesEnabled="false" inputOutput="false" manual="true">
+<model-identification modelTag="">
+<model-identification-field name="Application Name" partOfTag="true" value="Aptech Computer Education"/>
+<model-identification-field name="Application code version #" partOfTag="true" value=""/>
+<model-identification-field name="Application Function" partOfTag="true" value="Aptech Computer Education_Career_Guidance"/>
+<model-identification-field name="Updated Reason" partOfTag="false" value=""/>
+<model-identification-field name="Created By" partOfTag="false" value="nallam"/>
+<model-identification-field name="Created Date and Time" partOfTag="false" value="29 Jan 2020 11:22:35"/>
+<model-identification-field name="Updated By" partOfTag="false" value="nallam"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="29 Jan 2020 11:22:35"/>
+<model-identification-field name="Application Sub Function" partOfTag="true" value=""/>
+<model-identification-field name="Test Stage" partOfTag="false" value=""/>
+<model-identification-field name="Criticality" partOfTag="false" value=""/>
+<model-identification-field name="Project" partOfTag="false" value=""/>
+<model-identification-field name="Epic" partOfTag="false" value=""/>
+<model-identification-field name="Feature" partOfTag="false" value=""/>
+<model-identification-field name="User Story" partOfTag="false" value=""/>
+</model-identification>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Dev_Loan" revision="" type="STRING">
+<value name="Home Loan" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<value name="Home Top Up Loan" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<value name="Auto Loan" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<value name="Personal Loan" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<requirement ID="Loan Application.1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Dev_Name" revision="" type="STRING">
+<value name="valid" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<value name="invalid" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<requirement ID="Loan Application.1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Dev_city" revision="" type="STRING">
+<value name="Bangalore" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<value name="Mysore" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<value name="Chennai" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<value name="Hyderabad" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<requirement ID="Loan Application.1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Dev_Language" revision="" type="STRING">
+<value name="English" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<value name="Hindi" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<requirement ID="Loan Application.1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Dev_Mobile number" revision="" type="STRING">
+<value name="valid" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<value name="invalid" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<requirement ID="Loan Application.1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Dev_Email" revision="" type="STRING">
+<value name="valid" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<value name="invalid" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="Dev_Check" revision="" type="STRING">
+<value name="valid" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<value name="invalid" weight="1">
+<requirement ID="Loan Application.1"/>
+</value>
+<requirement ID="Loan Application.1"/>
+</attribute>
+<coverage-reqs-sets/>
+<neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+<coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet"/>
+</neg-coverage-reqs-sets>
+<focus-ctd-decoration decorationName="DefaultTestCaseNameDecoration" decorationType="testCaseName" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="true"/>
+<focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="false"/>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_Mobile number" value="invalid"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_Mobile number" value="valid"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_Name" value="invalid"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_Name" value="valid"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_Language" value="English"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_Language" value="Hindi"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_Loan" value="Auto Loan"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_Loan" value="Home Loan"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_Loan" value="Home Top Up Loan"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_Loan" value="Personal Loan"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_Check" value="invalid"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_Check" value="valid"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_city" value="Bangalore"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_city" value="Chennai"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_city" value="Hyderabad"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_city" value="Mysore"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_Email" value="invalid"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="Dev_Email" value="valid"/>
+<requirement ID="Loan Application.1"/>
+</requirements-tracking-combination>
+<requirements-collection>
+<requirement-node Ambiguity="" Complexity="Medium" DocumentName="Loan Application" Keywords="" Ranking="0" RequirementDescription="" RequirementId="1" Restrictions=""/>
+</requirements-collection>
+<focus-ctd-model-sync>
+<focus-ctd-model-sync-mult/>
+<focus-ctd-model-sync-na/>
+</focus-ctd-model-sync>
+</focus-model>
